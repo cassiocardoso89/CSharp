@@ -10,6 +10,8 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }

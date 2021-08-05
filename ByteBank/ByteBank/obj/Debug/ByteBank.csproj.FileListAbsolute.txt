@@ -1,0 +1,7 @@
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
