@@ -1,4 +1,10 @@
-﻿namespace ByteBank
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ByteBank
 {
     public class ContaCorrente
     {
@@ -8,25 +14,10 @@
 
         public Cliente Titular { get; set; }
 
-        private int agencia;
-        public int Agencia
-        {
-            get
-            {
-                return agencia;
-            }
-            set
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
+        public int Numero { get; }
 
-                agencia = value;
-            }
-        }
-        public int Numero { get; set; }
-
+        public int Agencia { get; }
+        
         private double saldo = 100;
 
         public double Saldo
@@ -46,16 +37,23 @@
             }
         }
 
-
         public ContaCorrente(int agencia, int numero)
         {
+            if (agencia <= 0)
+            {
+                throw new ArgumentException("O argumento agencia deve ser maior que 0.", nameof(agencia));
+            }
+            if(numero <= 0)
+            {
+                throw new ArgumentException("O argumento numero deve ser maior que 0.", nameof(numero));
+            }
+
             Agencia = agencia;
             Numero = numero;
 
             TaxaOperacao = 30 / TotalDeContasCriadas;
             TotalDeContasCriadas++;
         }
-
 
         public bool Sacar(double valor)
         {
@@ -67,13 +65,10 @@
             saldo -= valor;
             return true;
         }
-
         public void Depositar(double valor)
         {
             saldo += valor;
         }
-
-
         public bool Transferir(double valor, ContaCorrente contaDestino)
         {
             if (saldo < valor)
