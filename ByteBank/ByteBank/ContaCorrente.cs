@@ -70,8 +70,8 @@ namespace ByteBank
                 ContadorSaquesNaoPermitidos++;
                 throw new SaldoInsuficienteException(Saldo, valor);
             }
-
             saldo -= valor;
+            Console.WriteLine(saldo);
         }
         public void Depositar(double valor)
         {
