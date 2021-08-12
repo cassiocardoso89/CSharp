@@ -12,36 +12,20 @@ namespace ByteBank
         {
             try
             {
-                ContaCorrente conta1 = new ContaCorrente(111, 222);
-                ContaCorrente conta2 = new ContaCorrente(333, 444);
+                ContaCorrente conta1 = new ContaCorrente(111, 333);
+                ContaCorrente conta2 = new ContaCorrente(222, 444);
 
-                conta2.Transferir(10, conta1);
-
-                Console.WriteLine("1 "+conta1.Saldo);
-                Console.WriteLine("2 "+conta2.Saldo);
-
-
-
+                //conta1.Transferir(100000, conta2);
+                conta1.Sacar(100000);
             }
-            catch(ArgumentException e)
-            {
-                if(e.ParamName == "numero")
-                {
-
-                }
-                Console.WriteLine(e.Message);
-                Console.WriteLine(e.ParamName);
-            }
-            catch (SaldoInsuficienteException e)
-            {
-                Console.WriteLine("Mensagem: "+e.Message);
-            }
-            catch(Exception e)
+            catch(OperacaoFinanceiraException e)
             {
                 Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
+
+                //Console.WriteLine("InnerException:\n" + e.InnerException.Message);
+                //Console.WriteLine("InnerException:\n" + e.InnerException.StackTrace);
             }
-
-
 
 
 
