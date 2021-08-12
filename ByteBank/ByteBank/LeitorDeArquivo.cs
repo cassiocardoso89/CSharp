@@ -18,7 +18,7 @@ namespace ByteBank
         }
         public string LerProximaLinha()
         {
-            Console.WriteLine("Lendo linha ...");
+            Console.WriteLine("Lendo linha ..."); 
             //throw new IOException();
             return "linha do arquivo";
         }

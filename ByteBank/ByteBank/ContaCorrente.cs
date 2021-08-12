@@ -71,7 +71,10 @@ namespace ByteBank
                 throw new SaldoInsuficienteException(Saldo, valor);
             }
             saldo -= valor;
+<<<<<<< HEAD
             Console.WriteLine(saldo);
+=======
+>>>>>>> main
         }
         public void Depositar(double valor)
         {
