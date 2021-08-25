@@ -1,0 +1,10 @@
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.exe.config
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.exe
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.pdb
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.Modelos.dll
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.csprojAssemblyReference.cache
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.csproj.CoreCompileInputs.cache
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.csproj.CopyComplete
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.exe
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.pdb
+f:\Users\cassi\Desktop\Estudos\Alura\C#\Git\#5 - ByteBank\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.Modelos.xml
